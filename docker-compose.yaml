@@ -8,7 +8,7 @@ services:
     ports: 
       - 80:3000
     volumes:
-      - app-data:app/public/images 
+      - app-data:/app/public/images 
 
 volumes:
   app-data:
