@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'devops1-ryan' }
 
     stages {
         stage('Build Apps') {
